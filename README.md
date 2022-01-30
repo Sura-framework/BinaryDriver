@@ -74,7 +74,7 @@ $driver = Driver::load('ls', $logger);
 
 You can add custom listeners on processes.
 Listeners are built on top of [Evenement](https://github.com/igorw/evenement)
-and must implement `Alchemy\BinaryDriver\ListenerInterface`.
+and must implement `Sura\BinaryDriver\ListenerInterface`.
 
 ```php
 use Symfony\Component\Process\Process;
